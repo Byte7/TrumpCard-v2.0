@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "TrumpCard v2",
+    "description": "Replaces Donald Trump or Mr.Trump with Crime master Gogo",
+    "version": "2.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "trump_script.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
